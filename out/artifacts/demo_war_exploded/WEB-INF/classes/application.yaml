@@ -1,0 +1,14 @@
+spring:
+  main:
+    allow-circular-references: true
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+  datasource:
+      url: jdbc:postgresql://localhost:5432/shop
+      username: postgres
+      password: Sensey1337
+  flyway:
+    baseline-on-migrate: true
+
